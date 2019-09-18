@@ -1,0 +1,29 @@
+#green-froggie {
+    position: absolute;
+    top: 30.71%;
+    left: 12.755%;
+}
+
+
+#pro-one {
+    position: relative;
+}
+
+
+#rel-lily-pad {
+    position: relative;
+    top: 111%;
+    left: 11.2%;
+}
+
+
+#gold-froggie {
+    position: fixed;
+    right: 0px;
+    left: unset;
+    z-index: 99;
+}
+
+#red-froggie {
+    position: static;
+}
