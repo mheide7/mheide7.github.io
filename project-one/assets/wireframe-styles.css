@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #EAE8E8;
+}
+
+body h2 {
+    font-size: 16px;
+    font-family: 'Righteous', cursive;
+    color: #A02A6D;
+    line-height: 20px;
+}
+
+
+p{
+    font-size: 14px;
+    font-family: 'Righteous', cursive;
+}
+
+.container {
+    width: 485px;
+    background-color: #E9ED86;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.large-letter-group {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #8D7D98;
+    height: 432px;
+}
+
+.large-letter-group h1 {
+    height: 432px;
+    width:435px;
+    background-color: #9508FC;
+    margin-bottom: 0;
+}
+
+.large-letter-group button {
+    height: 72px;
+    width:72px;
+    background-color: #CB56D5;
+    margin-left: 10px;
+}
+
+.letter-set {
+    background-color: #08FC24;
+    height: 82px;
+    
+}
+
+.main-copy {
+    background-color: #262838; 
+
+}
+footer {
+    display: flex;
+
+}
+
+.letter-set,
+.main-copy,
+footer{
+    margin-top:40px;
+}
+
+footer img {
+    height: 80px;
+    background-color: #557b49;
+    margin-right: 7px;
+        
+}
+
+footer .author-heading {
+    height; 93px;
+    background-color: #742C2C
+}
+
+footer .sources-section {
+    width: 390px;
+    background-color: #fc08b1;
+}
