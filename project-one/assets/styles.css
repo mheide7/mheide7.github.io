@@ -27,14 +27,13 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 432px;
 }
 
 .large-letter-group h1 {
-    height: 432px;
+    height: 400px;
     width:435px;
     margin-bottom: 0;
-    font-size:200px;
+    font-size:601px;
     font-family: 'Righteous', cursive;
     text-shadow:
 		-6px -6px 0 #000,
