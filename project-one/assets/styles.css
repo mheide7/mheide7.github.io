@@ -15,6 +15,19 @@ body {
 
 }
 
+.letter-container img {
+    position: absolute;
+    z-index: 99;
+    top: 11%;
+    left: 33.9%;
+    visibility: hidden;
+}
+
+
+.letter-container img.visible {
+    visibility: visible;
+}
+
 h2 {
     font-size: 26px;
     font-family: 'Righteous', cursive;
@@ -23,23 +36,25 @@ h2 {
     justify-content: center;
 }
 
-.large-letter-group {
+.letter-container {
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-.large-letter-group h1 {
-    height: 400px;
-    width:435px;
-    margin-bottom: 0;
-    font-size:601px;
+.letter-container h1 {
+    font-size:582px;
     font-family: 'Righteous', cursive;
     text-shadow:
 		-6px -6px 0 #000,
 		6px -6px 0 #000,
 		-6px 6px 0 #000,
 		6px 6px 0 #000;
+    color: #EAE8E8; 
+    position: relative;
+    padding: 0;
+    margin-top: 200px;
+    margin-bottom: 220px;
 }
 
 .large-letter-group button {
