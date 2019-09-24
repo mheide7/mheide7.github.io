@@ -18,8 +18,8 @@ body {
 .letter-container img {
     position: absolute;
     z-index: 99;
-    top: 15%;
-    left: 31.9%;
+    top: 16%;
+    left: 33.9%;
     visibility: hidden;
 }
 
@@ -64,6 +64,8 @@ h2 {
     background: #A02A6D; 
     border: 6px solid black;
     cursor: pointer;
+    position: relative;
+    bottom: 13px;
 }
 
 .letter-set {
@@ -105,6 +107,7 @@ footer img {
 footer .author-heading {
     height; 93px; 
     color:#5B706E;
+    margin-top: 0;
 }
 
 footer .sources-section {
