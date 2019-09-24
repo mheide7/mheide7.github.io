@@ -18,8 +18,8 @@ body {
 .letter-container img {
     position: absolute;
     z-index: 99;
-    top: 11%;
-    left: 33.9%;
+    top: 15%;
+    left: 31.9%;
     visibility: hidden;
 }
 
@@ -43,7 +43,7 @@ h2 {
 }
 
 .letter-container h1 {
-    font-size:582px;
+    font-size:500px;
     font-family: 'Righteous', cursive;
     text-shadow:
 		-6px -6px 0 #000,
@@ -54,13 +54,12 @@ h2 {
     position: relative;
     padding: 0;
     margin-top: 200px;
-    margin-bottom: 220px;
+    margin-bottom: 200px;
 }
 
-.large-letter-group button {
+.letter-container button {
     height: 72px;
     width:72px;
-    margin-left: 10px;
     border-radius: 50%;
     background: #A02A6D; 
     border: 6px solid black;
@@ -68,13 +67,10 @@ h2 {
 }
 
 .letter-set {
-    height: 100px;
+    line-height: 61px;
     font-size:53px;
     font-family: 'Righteous', cursive;
-    display: flex;
-    justify-content: center;
     color: #5B706E;
-    overflow: scroll;
     overflow-y: hidden;
     white-space: nowrap;
 
