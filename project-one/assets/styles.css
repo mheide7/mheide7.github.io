@@ -18,7 +18,7 @@ body {
 .letter-container img {
     position: absolute;
     z-index: 99;
-    top: 5.6%;
+    top: 5.9%;
     left: 6.6%;
     visibility: hidden;
 }
