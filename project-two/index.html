@@ -4,26 +4,53 @@
 <head>
 	<title>Checking In </title>
     <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <script src="assets/hide-reveal.js" charset="utf-8"></script>
 </head>
   
 <body>
-    <h2> Checking In </h2> 
-    <div class="container">
-    <h3> How are you feeling? </h3> 
-    <div class="question1" id="happy">
-        <button id="button1"></button>
-         <a href="1A.html">1A</a>
-        <button id="button2"></button>
-        <a href="1B.html">1B</a>
-            </div>
-    <h3> Where are your energy levels at? </h3> 
-    <div class="question2">
-        <button id="button3"></button>
-        <a href="2A.html">2A</a>
-        <button id="button4"></button>
-        <a href="1A.html">2B</a>
-    </div>
-    </div>
-</body>
+    
+    <section class= 'opening'>
+    <h1>Checking In</h1>
+        <p> scroll for more</p>
+        <img id="scroll" src="assets/scroll.svg" width="25 px" height="25 px"> 
+    
+    </section>
+    
+      <section class= 'feeling'>
+    <h1>How are you feeling?</h1>
         
+          
+<div id="reveal-button1" class="feeling"></div>
+    <section class="smiley invisible">
+        <img id="smile" src="assets/happyface.svg" width="50 px" height= "50 px">
+         </section>
+    
+<div id="reveal-button2" class="feeling"></div>
+        <section class="downsmiley invisible">
+        <img id=unhappyface src="assets/sadface.svg" width="50 px" height= "50 px"> 
+          
+     </section>
+    
+    <section class= 'energy'>
+    <h1>Where are your energy levels at?</h1>
+       
+<div id="reveal-button3" class="energy></div>
+    <section class= "arrowup invisible">
+        <img id="arrowup" src="assets/arrowup.svg" width="50 px" height= "50 px">
+         </section>
+        
+<div id="reveal-button4" class="feeling"></div>
+        <section class="arrowdown invisible">
+        <img id=downarrow src="assets/arrowdown.svg" width="50 px" height= "50 px"> 
+                                                                                      
+        
+
+    
+     </section>
+    </section>
+
+    
+    </body>
 </html>

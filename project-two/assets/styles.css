@@ -1,14 +1,49 @@
-body {
-    padding: 100;
-    margin: 0;
-    background-color: #B68798;
+.one,
+.feeling,
+.energy {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    background-color: #A77C8B;
     font-size: 50px;
     font-family: 'Raleway', sans-serif;
-    color: #222234;
-    line-height: 20px
+    color: #f6dcd8;
 }
 
-.container {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+#reveal-button {
+    height: 5em;
+    width: 5em;
+    background-color: #00f0ff;
+    
+}
+
+
+.nd-content {
+    width: 50vw;
+    padding: 1vw;
+    background-color: #fff;
+    
+}
+
+.nd-content p {
+    font-family: fantasy;
+    font-size: 2em;
+    color: darkorchid;
+    padding-left: 4vw;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.shadow {
+    background-color: red;
+}
+
+.fighting-irish {
+    color: aquamarine;
+    font-weight: 900;
+    font-family: monospace;
+    letter-spacing: 5px;
+}
