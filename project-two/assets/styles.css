@@ -1,6 +1,10 @@
-.opening,
-.feeling,
-.energy {
+* {
+  margin:0;
+}
+
+
+
+section {
     height: 100vh;
     width: 100%;
     position: relative;
@@ -9,17 +13,34 @@
     font-size: 50px;
     font-family: 'Raleway', sans-serif;
     color: #f6dcd8;
+    font-weight: lighter;
 }
 
 #reveal-button {
     height: 5em;
     width: 5em;
     background-color: #00f0ff;
-    
+
 }
 
 .invisible {
-    visibility: visible;
+    display: none;
+}
+
+img#scroll {
+  height: 25px;
+  width: 25px;
+}
+
+p3 {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.container img,
+.energy img {
+  height: 185px;
+  width: 185px;
 }
 
 
@@ -28,19 +49,33 @@
 .timetorelax,
 .steadyyourself {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size; 16px;
+    font-size: 16px;
     height: 100vh;
     width: 100%;
     position: relative;
     margin: 0 auto;
+    
 }
 
-.stayup,
-.chilltime,
-.timetorelax,
+.stayup h1,
+.chilltime h1,
+.timetorelax h1,
 .steadyyourself h1 {
     font-size: 50px;
     font-family: 'Raleway', sans-serif;
+    position:relative;
+    font-weight: lighter;
+}
+
+.stayup h3,
+.chilltime h3,
+.timetorelax h3,
+.steadyyourself h3 {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    position: left;
+    font-weight: lighter;
+
 }
 
 
@@ -49,6 +84,20 @@
     background-color: #F6DCDB;
 }
 
+.chilltime {
+    color: #cbddf2;
+    background-color: #231f36;
+}
+
+.timetorelax {
+    color: #614b67;
+    background-color: #cbddf2;
+}
+
+.steadyyourself {
+    color: #F6DCDB;
+    background-color: #614b67;
+}
 
 
 
