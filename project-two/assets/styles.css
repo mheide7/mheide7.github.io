@@ -162,13 +162,13 @@ h6 {
     background-color: #614b67;
 }
 
-#closer {
-    margin-left: 708px;
+#closer h6 {
+    margin-left: 720px;
     display: flex;
 }
 
-#closer h6 {
-    margin-left: 720px;
+#closer {
+    margin-left: 708px;
     display: flex;
 }
 
