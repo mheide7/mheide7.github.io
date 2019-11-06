@@ -6,15 +6,17 @@
 	<link rel="stylesheet" href="assets/styles.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/jquery.scrollTo.min.js" charset="utf-8"></script>
+   
 </head>
 
 <body>
+    <div class="complete-box">
 
 	<section id="opening">
 		<h1>Checking In</h1>
-		<p3> scroll for more</p3>
+        <h6> scroll for more</h6>
 		<img id="scroll" src="assets/scroll.svg">
-	</section>
+        </section>
 
 	<section id="feeling">
 		<h1>How are you feeling?</h1>
@@ -29,17 +31,20 @@
 		<h1>Where are your energy levels at?</h1>
 
 		<div id="energy-a" class="container invisible">
-			<img id="reveal-button3a" src="assets/arrowup.svg">
-			<img id="reveal-button4a" src="assets/arrowdown.svg">
+			<a href="1A.html"> <img id="reveal-button3a" src="assets/arrowup.svg"></a>
+			<a href="1B.html"><img id="reveal-button4a" src="assets/arrowdown.svg"></a>
 		</div>
 
 		<div id="energy-b" class="container invisible">
-			<img id="reveal-button3b" src="assets/arrowup.svg">
-			<img id="reveal-button4b" src="assets/arrowdown.svg">
+			<a href="2A.html"><img id="reveal-button3b" src="assets/arrowup.svg"></a>
+			<a href="2B.html"><img id="reveal-button4b" src="assets/arrowdown.svg"></a>
+    
 		</div>
 	</section>
-
-	<script src="js/scrollTo.custom.js" charset="utf-8"></script>
+</div>
+    
+    <script src="js/jquery.scrollTo.min.js" charset="utf-8"></script>
+	<script src="js/scrollTo.custom2.js" charset="utf-8"></script>
 	<script src="js/hide-reveal.js" charset="utf-8"></script>
 </body>
 

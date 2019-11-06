@@ -2,25 +2,53 @@
   margin:0;
 }
 
+body {
+    text-align: center;
+    background-color: #A77C8B;
+}
 
+.complete-box {
+    width:768px;
+    height:auto;
+    margin: 0 auto;
+}
+
+#opening h1 {
+    margin-top: 346px;
+}
+
+#opening h6 {
+    color: #f6dcd8;
+    margin-top: 515px;   
+}
+
+#feeling h1 {
+    margin-top: 261.4px;
+    margin-bottom: 97px;
+}
+
+#energy h1 {
+    margin-top: 952px;
+    margin-bottom: 97px;
+}
 
 section {
     height: 100vh;
     width: 100%;
     position: relative;
     margin: 0 auto;
-    background-color: #A77C8B;
+    
+}
+
+section h1 {
     font-size: 50px;
     font-family: 'Raleway', sans-serif;
     color: #f6dcd8;
     font-weight: lighter;
 }
 
-#reveal-button {
-    height: 5em;
-    width: 5em;
-    background-color: #00f0ff;
-
+#feeling {
+    margin-top: 346px;
 }
 
 .invisible {
@@ -32,11 +60,12 @@ img#scroll {
   width: 25px;
 }
 
-p3 {
+h6 {
     font-size: 16px;
     font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
 }
-
+ 
 .container img,
 .energy img {
   height: 185px;
@@ -78,13 +107,37 @@ p3 {
 
 }
 
+.complete1 {
+    width:768px;
+    height:auto;
+    margin: 0 auto;
+}
 
-.stayup {
+
+.stayup h1,  {
     color: #231F36;
     background-color: #F6DCDB;
 }
 
+.activity,
+.items,
+.resources {
+    display: flex;
+}
+
+.activity div p,
+.items div p,
+.resources div p 
+{
+    text-align: left;
+}
+
 .chilltime {
+    color: #cbddf2;
+    background-color: #231f36;
+}
+
+.chilltime h1 {
     color: #cbddf2;
     background-color: #231f36;
 }
@@ -94,9 +147,29 @@ p3 {
     background-color: #cbddf2;
 }
 
+.timetorelax h1 {
+    color: #614b67;
+    background-color: #cbddf2;
+    
+}
 .steadyyourself {
     color: #F6DCDB;
     background-color: #614b67;
+}
+
+.steadyyourself h1 {
+    color: #F6DCDB;
+    background-color: #614b67;
+}
+
+#closer {
+    margin-left: 708px;
+    display: flex;
+}
+
+#closer h6 {
+    margin-left: 720px;
+    display: flex;
 }
 
 
