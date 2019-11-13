@@ -79,11 +79,48 @@ h6 {
 .steadyyourself {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
-    height: 100vh;
+    height: 30vh;
     width: 100%;
     position: relative;
     margin: 0 auto;
     
+}
+
+#activitybutton.stayup,
+#item-button.stayup,
+#resources-button.stayup {
+    height: 30vh;
+    width: 131%;
+}
+
+#activitybutton.chilltime,
+#item-button.chilltime {
+    height: 30vh;
+    width: 90%;
+}
+
+#resources-button.chilltime {
+    width: 109%;
+}
+
+
+#item-button.timetorelax {
+        width: 90%;
+}
+
+
+#resources-button.timetorelax {
+    width: 57%;
+}
+
+#activitybutton.steadyyourself,
+#item-button.steadyyourself {
+    width: 90%;
+}
+
+#resources-button.steadyyourself {
+    width: 130%;
+
 }
 
 .stayup h1,
@@ -94,6 +131,7 @@ h6 {
     font-family: 'Raleway', sans-serif;
     position:relative;
     font-weight: lighter;
+    margin-bottom: 75px;
 }
 
 .stayup h3,
@@ -163,13 +201,18 @@ h6 {
 }
 
 #closer h6 {
-    margin-left: 720px;
+    margin-left: 100px;
     display: flex;
 }
 
 #closer {
     margin-left: 708px;
     display: flex;
+}
+
+#home {
+    margin-left: 3px;
+    margin-bottom: 7px;
 }
 
 
