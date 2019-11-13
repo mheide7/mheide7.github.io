@@ -1,0 +1,212 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+#title {
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #ccb9c2;
+    color:#707070;
+    font-weight: bolder;
+    padding-bottom: 16px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.contentbox {
+    background-color: #FAF0F5;
+    padding-left: 10px;
+    padding-bottom: 15px;
+
+}
+
+#Education h1,
+#Experience h1,
+#Athletics h1,
+#Interests h1 {
+    font-size: 26px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    color:#707070;
+    margin-bottom: 15px;
+}
+
+#Athletics h1,
+#Interests h1 {
+        margin-top: 15px;
+}
+
+#Experience h1{
+        margin-top: 25px;
+
+}
+
+#Education h1 {
+    padding-top: 15px;
+}
+
+#Education h2,
+#Experience h2,
+#Athletics h2,
+#Interests h2 {
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    color:#707070;
+}
+
+#Education h2{
+        margin-bottom: 10px;
+}
+
+
+#Experience h4,
+#Athletics h4,
+#Interests h4 {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    color:#707070;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Education h4 {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    color:#707070;
+}
+
+
+
+
+@media only screen and (min-width:900px) {
+
+    .page {
+        width: 960px
+    }
+    
+    
+/*****************/
+/**** content *****/
+/*****************/
+    .contentbox {
+    display: flex;
+    justify-content: space-between;
+
+}
+    .pt1 {
+        width: 35%;
+        padding-left: 10%;
+    }
+    
+    .pt2 {
+        width: 35%;
+        padding-right: 10%
+    }
+
+
+    
+    /*****************/
+/**** Title *****/
+/*****************/
+
+    
+#title {
+    font-size: 65px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+    }
+ 
+ /*****************/
+/**** h1 HEADERS *****/
+/*****************/
+
+#Education h1,    
+#Experience h1,
+#Athletics h1,
+#Interests h1 {
+    font-size: 23px;
+    color:#707070;
+    margin-top: 45px;
+    border-bottom: .300rem solid #ccb9c2;
+    padding-bottom: 6px;
+}
+
+    #Education h1 {
+        margin-top: 0px;
+    }   
+    
+    #Athletics h1 {
+        margin-top: 15px;
+    }
+
+
+    
+    
+    /*****************/
+/**** h2 HEADERS *****/
+/*****************/
+
+#Education h2,
+#Experience h2,
+#Athletics h2,
+#Interests h2 {
+    font-size: 19px;
+  
+} 
+    
+}
+
+
+
+
+@media only screen and (min-width:700px) and (max-width:900px) {
+ 
+       /*****************/
+/**** h2 HEADERS *****/
+/*****************/
+
+#Education h2,
+#Experience h2,
+#Athletics h2,
+#Interests h2 {
+    font-size: 20px;
+  
+} 
+    
+    
+#Education h1,    
+#Experience h1,
+#Athletics h1,
+#Interests h1 {
+    border-bottom: .300rem dashed #ccb9c2;
+    padding-bottom: 6px;
+}
+
+}
+
+/***********************************/
+/**** Various Style Reminders *****/
+/*********************************/
+
+/*
+This section is just something I tend to create to help me remember what the proper font-family values and color codes are for my project. It has no purpose other than being a repository for items that I use over and over throughout a single website.
+
+
+Nunito
+font-family: 'Nunito', sans-serif;
+
+COLORS
+
+PINK: 		#faf0f5
+DARK PINK: 	#ccb9c2;
+GREY:	#707070
+
+*/
+
+
+
