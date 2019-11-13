@@ -1,3 +1,9 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+
 body {
     padding: 0;
     margin: 0;
@@ -8,20 +14,70 @@ body {
 }
 
 
-.container {
-    width: 850px;
-    margin-left: auto;
-    margin-right: auto;
+
+.title h1 {
+    font-size: 50px;
+    color: #301934;
+    font-weight: lighter;
+    margin: 50px;
+    text-align: center; 
+    border-bottom: .20rem solid #301934;
+    padding: 25px;
 }
 
-
-.title {
-    justify-content: center;
-    font-size: 30px;
-    color: #f1a5ab;
-}
-
-.projects {
+.assignments {
     font-size: 16px;
     color: #B59CA8;
+}
+
+.projects{
+    padding-left: 25%
+}
+
+.exercises{
+    padding-right: 25%
+}
+
+.projects h1,
+.exercises h1 {
+    font-family: 'Manjari', sans-serif;
+    color: #f1a5ab;
+    font-weight: lighter;
+    margin-bottom: 20px;
+
+}
+
+
+.projects h2,
+.exercises h2 {
+    font-family: 'Manjari', sans-serif;
+    color: #B59CA8;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 7px;
+    font-style: italic;
+}
+
+.assignments {
+    display: flex;
+    justify-content: space-between;
+}
+
+#link {
+    padding-bottom: 15px;
+}
+
+/* unvisited link */
+a:link {
+  color: #f1a5ab;
+}
+
+/* visited link */
+a:visited {
+  color: #301934;
+}
+
+/* mouse over link */
+a:hover {
+  color: #B59CA8;
 }
