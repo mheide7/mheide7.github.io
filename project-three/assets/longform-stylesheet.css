@@ -1,0 +1,374 @@
+/* Main styling: desinged for mobile, specifically iPhone 6/7/8 Plus */
+
+/* Body Div */
+body {
+  margin: 0 auto;
+  padding: 0;
+
+  background-color: #ACEEFF;
+  /* Winter Sky Blue */
+
+  overflow-x: hidden;
+}
+
+
+figure, blockquote {
+    margin:0;
+    padding: 0;
+    
+}
+
+
+blockquote {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+figure {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 5px;
+    margin-inline-end: 0px;
+}
+
+figcaption {
+    margin-right: 10px;
+}
+
+
+/* Div containing all content */
+ .everything {
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: white;
+
+  padding-bottom: 30px;
+}
+
+#figure-header-mobile, #figure-two-mobile, #figure-three-mobile, #figure-four-mobile, #figure-five-mobile, #figure-six-mobile, #figure-seven-mobile, #figure-eight-mobile, #figure-header-tablet {
+  margin-left: 0px;
+    margin: 0px;
+    display: block;
+}
+
+#figure-header-tablet, #figure-two-tablet, #figure-three-tablet, #figure-four-tablet, #figure-five-tablet, #figure-six-tablet, #figure-seven-tablet, #figure-eight-tablet #figure-nine-tablet{
+  display: none;
+}
+
+h1 {
+  /* Interstate Regular */
+  font-family: "interstate", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+
+  margin-left: 18px;
+
+  text-transform: uppercase;
+
+  margin-top: -8.5%;
+    text-align: center;
+}
+
+#line-one {
+  /* Ivory */
+  color: #FFEDCB;
+}
+
+#line-two {
+    color: #000;
+}
+
+#line-two, #line-three {
+  margin-top: -25px;
+}
+
+#header-image {
+  margin: 0 0 0 0;
+}
+
+figcaption {
+  /* Omnes Cyrillic Narrow ExtraLight */
+  font-family: "omnes-cyrillic-narrow", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  text-align: right;
+}
+
+figcaption #yes {
+    text-align: right;
+}
+
+#byline {
+  /* Omnes Cyrillic Narrow ExtraLight */
+  font-family: "omnes-cyrillic-narrow", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+
+  text-align: center;
+
+  margin-top: -15px;
+}
+
+h2 {
+  /* Fenway Park JF */
+  font-family: "fenway-park-jf", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+
+  margin-left: 33px;
+}
+
+p {
+  /* LTC Caslon Pro Regular, body for all formats */
+  font-family: "ltc-caslon-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+
+  margin-left: 33px;
+  margin-right: 33px;
+}
+
+/* iPad Media Query */
+@media only screen and (min-width:500px) and (max-width:960px) {
+    
+   /*****************/
+/**** header content *****/
+/*****************/ 
+    
+    
+    #figure-header-tablet #header-image {
+        width: 100%;
+    }
+    
+    #line-one, #line-two {
+  /* Ivory */
+  color: #FFEDCB;
+    text-align: center;
+}
+
+#line-two, #line-three {
+  margin-top: -30px;
+    text-align: center;
+}
+
+        
+/*****************/
+/**** content *****/
+/*****************/
+    
+    .everything {
+  width: 80vw;
+    }
+    
+    .right,
+    .left {
+        width: 20%;
+        position: relative;
+    }
+    
+    .middle {
+        width: 60%;
+        order: 2;
+    }   
+    
+    /*****************/
+/**** columns *****/
+/*****************/
+    
+    
+    .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .left {
+        order: 1;
+    }
+
+    .right {
+        order: 3;
+    }
+    
+    /*****************/
+/**** assets *****/
+/*****************/
+    
+    #figure-header-mobile, #figure-two-mobile, #figure-three-mobile, #figure-four-mobile, #figure-five-mobile, #figure-six-mobile, #figure-seven-mobile, #figure-eight-mobile {
+    display: none;
+}
+
+    #figure-header-tablet, #figure-two-tablet, #figure-three-tablet, #figure-four-tablet, #figure-five-tablet, #figure-six-tablet, #figure-seven-tablet, #figure-eight-tablet #figure-nine-tablet {
+    display: block;
+        
+}
+    
+    #figure-two-tablet, #figure-three-tablet, #figure-four-tablet, #figure-five-tablet, #figure-six-tablet, #figure-seven-tablet, #figure-eight-tablet, #figure-nine-tablet, #blockquote1, #blockquote2, #blockquote3, #blockquote4, #blockquote5 {
+        position: absolute;
+        
+    }
+    
+    
+    #figure-three-tablet, #figure-five-tablet, #blockquote2, #figure-seven-tablet, #blockquote4 {
+        left: 0px;
+    }
+    
+    #figure-three-tablet { 
+    top: 520px;
+    }
+
+    #figure-five-tablet {
+        bottom: 730px;
+    }
+    
+    #blockquote2, #blockquote4 {
+        text-align: right;
+    }
+    #blockquote2 {
+        bottom: 400px;
+    }
+    
+    #figure-two-tablet, #figure-four-tablet, #blockquote1, #figure-six-tablet, #blockquote3, #figure-eight-tablet, #figure-nine-tablet, #blockquote5 {
+        right: 0px;
+        
+    }
+    
+    #figure-two-tablet{
+        top: 420px;
+    }
+    
+    #figure-four-tablet {
+        bottom: 0px;
+    }
+    
+    
+    #blockquote1 {
+        bottom: 1200px;
+    }
+    
+    
+    #figure-six-tablet {
+        top: 100px;
+    }
+    
+    #blockquote3 {
+        top: 800px;
+    }
+    
+    #figure-seven-tablet {
+        top: 300px;
+    }
+    
+    #blockquote4 {
+        top: 300px;
+    }
+    
+    #figure-eight-tablet {
+        bottom: 200px;
+    }
+    
+    #figure-nine-tablet {
+        top: 300px;
+    }
+    
+    #blockquote5 {
+        top: 100px;
+    }
+
+   /*****************/
+/**** captions and byline *****/
+/*****************/
+
+   #figcaption,
+    #byline {
+  font-size: 12px;
+} 
+    
+
+ 
+ /*****************/
+/**** blockquotes *****/
+/*****************/
+
+    blockquote {
+ margin: 0;
+ padding: 0;
+  font-family: "adobe-caslon-pro", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+}
+
+
+
+/* Desktop Media Query */
+@media only screen and (min-width:960px) {
+}
+
+
+
+
+/* Font Reference List
+
+  Interstate Regular, H1 for all formats
+    Mobile: ~32px, broken into three lines
+    Tablet: ~32px, broken into two lines
+    Desktop: ~80px, broken into two lines
+  font-family: interstate, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  Fenway Park JF, H2 for all formats
+    Mobile: ~30px
+    Tablet: ~30px
+    Desktop: ~60px
+  font-family: fenway-park-jf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  LTC Caslon Pro Regular, body for all formats
+    Mobile: ~18px
+    Tablet: ~18px
+    Desktop: ~24px
+  font-family: ltc-caslon-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+
+  Omnes Cyrillic Narrow ExtraLight, captions/buttons before click for all formats
+    Mobile: ~14px
+    Tablet: ~12px
+    Desktop: ~22px
+  font-family: omnes-cyrillic-narrow, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+  Omnes Cyrillic Narrow Regular, captions/buttons on/after click for all formats
+    Mobile: none as yet
+    Tablet: ~12px
+    Desktop: ~22px
+  font-family: omnes-cyrillic-narrow, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+
+
+  Adobe Caslon Pro Bold, for tablet and desktop blockquotes
+    Mobile: none as yet
+    Tablet: ~15px
+    Desktop: ~40px
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 700;
+  font-style: normal;
+
+ */

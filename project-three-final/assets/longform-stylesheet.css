@@ -1,0 +1,771 @@
+/* Main styling: desinged for mobile, specifically iPhone 6/7/8 Plus */
+.everything-madison {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Body Div */
+body {
+  margin: 0 auto;
+  padding: 0;
+
+  background-color: #ACEEFF;
+  /* Winter Sky Blue */
+
+  overflow-x: hidden;
+}
+
+/* Div containing all content */
+ .everything-mackie {
+  width: 100%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: white;
+
+  padding-bottom: 30px;
+}
+
+#mobile-figure-header, #figure-two, #figure-three, #figure-four, #figure-five, #figure-six, #figure-seven, #figure-eight {
+  margin-left: 0px;
+}
+
+.desktop-article-title {
+  display: none;
+}
+
+h1 {
+  /* Interstate Regular */
+  font-family: "interstate", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+
+  margin-left: 18px;
+
+  text-transform: uppercase;
+}
+
+.mobile-article-title {
+  margin-top: -58px;
+  margin-bottom: 15px;
+}
+
+#line-one {
+  /* Ivory */
+  color: #FFEDCB;
+}
+
+#mobile-header-image {
+  margin: 0 0 0 0;
+}
+
+#desktop-figure-header {
+  display: none;
+}
+
+#cloud-column {
+  display: none
+}
+
+.flex-image-container {
+  display: none;
+}
+
+figcaption {
+  /* Omnes Cyrillic Narrow ExtraLight */
+  font-family: "omnes-cyrillic-narrow", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  text-align: right;
+
+  margin-right: 10px;
+}
+
+#byline {
+  /* Omnes Cyrillic Narrow ExtraLight */
+  font-family: "omnes-cyrillic-narrow", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+
+  text-align: center;
+
+  margin-top: -15px;
+}
+
+h2 {
+  /* Fenway Park JF */
+  font-family: "fenway-park-jf", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+
+  margin-left: 33px;
+}
+
+p {
+  /* LTC Caslon Pro Regular, body for all formats */
+  font-family: "ltc-caslon-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  margin-left: 33px;
+  margin-right: 33px;
+}
+
+/* iPad Media Query */
+@media only screen and (min-width:500px) and (max-width:960px) {
+  body {
+    background-color: white;
+  }
+
+  #header-image-mobile {
+    display: none;
+  }
+
+  #yes {
+    display: none;
+  }
+
+  #section-four-patent, #patent-caption {
+    display: none;
+  }
+
+  #line-one {
+    color: black;
+  }
+
+  #section-eight-bike, #bike-caption {
+    display: none;
+  }
+
+  #section-five-medallion, #medallion-caption {
+    display: none;
+  }
+
+  #blockquote1, #blockquote2, #blockquote3, #blockquote4, #blockquote5 {
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+
+  figure {
+    margin-top: 2%;
+    margin-left: 33px;
+  }
+
+  figcaption {
+    text-align: left;
+    margin-bottom: 2%;
+  }
+
+  #figure-header-tablet {
+    margin-left: 0px;
+  }
+
+  #tablet-header-caption {
+    margin-left: 2%;
+  }
+
+  #byline {
+    margin-top: 2%;
+  }
+
+  .everything-madison {
+    display: block;
+
+    {
+
+       /*****************/
+    /**** header content *****/
+    /*****************/
+
+
+        #figure-header-tablet #header-image {
+            width: 100%;
+        }
+
+        #line-one, #line-two {
+          text-align: center;
+        }
+
+    #line-two, #line-three {
+      margin-top: -30px;
+        text-align: center;
+    }
+
+
+    /*****************/
+    /**** content *****/
+    /*****************/
+
+        .everything {
+      width: 80vw;
+        }
+
+        .right,
+        .left {
+            width: 20%;
+            position: relative;
+        }
+
+        .middle {
+            width: 60%;
+            order: 2;
+        }
+
+        /*****************/
+    /**** columns *****/
+    /*****************/
+
+
+        .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .left {
+            order: 1;
+        }
+
+        .right {
+            order: 3;
+        }
+
+        /*****************/
+    /**** assets *****/
+    /*****************/
+
+        #figure-header-mobile, #figure-two-mobile, #figure-three-mobile, #figure-four-mobile, #figure-five-mobile, #figure-six-mobile, #figure-seven-mobile, #figure-eight-mobile {
+        display: none;}
+
+        #figure-header-tablet, #figure-two-tablet, #figure-three-tablet, #figure-four-tablet, #figure-five-tablet, #figure-six-tablet, #figure-seven-tablet, #figure-eight-tablet #figure-nine-tablet {
+        display: block;
+
+    }
+
+        #figure-two-tablet, #figure-three-tablet, #figure-four-tablet, #figure-five-tablet, #figure-six-tablet, #figure-seven-tablet, #figure-eight-tablet, #figure-nine-tablet, #blockquote1, #blockquote2, #blockquote3, #blockquote4, #blockquote5 {
+            position: absolute;
+
+        }
+
+
+        #figure-three-tablet, #figure-five-tablet, #blockquote2, #figure-seven-tablet, #blockquote4 {
+            left: 0px;
+        }
+
+        #figure-three-tablet {
+        top: 520px;
+        }
+
+        #figure-five-tablet {
+            bottom: 730px;
+        }
+
+        #blockquote2, #blockquote4 {
+            text-align: right;
+        }
+        #blockquote2 {
+            bottom: 400px;
+        }
+
+        #figure-two-tablet, #figure-four-tablet, #blockquote1, #figure-six-tablet, #blockquote3, #figure-eight-tablet, #figure-nine-tablet, #blockquote5 {
+            right: 0px;
+
+        }
+
+        #figure-two-tablet{
+            top: 420px;
+        }
+
+        #figure-four-tablet {
+            bottom: 0px;
+        }
+
+
+        #blockquote1 {
+            bottom: 1200px;
+        }
+
+
+        #figure-six-tablet {
+            top: 100px;
+        }
+
+        #blockquote3 {
+            top: 800px;
+        }
+
+        #figure-seven-tablet {
+            top: 300px;
+        }
+
+        #blockquote4 {
+            top: 300px;
+        }
+
+        #figure-eight-tablet {
+            bottom: 200px;
+        }
+
+        #figure-nine-tablet {
+            top: 300px;
+        }
+
+        #blockquote5 {
+            top: 100px;
+        }
+
+       /*****************/
+    /**** captions and byline *****/
+    /*****************/
+
+       #figcaption,
+        #byline {
+          font-family: "omnes-cyrillic-narrow", sans-serif;
+          font-weight: 500;
+          font-style: normal;
+          font-size: 12px;
+        }
+
+
+
+     /*****************/
+    /**** blockquotes *****/
+    /*****************/
+
+        blockquote {
+          margin: 0;
+          padding: 0;
+          font-family: "adobe-caslon-pro", serif;
+          font-weight: 700;
+          font-style: normal;
+          font-size: 15px;
+        }
+    }
+
+
+  }
+
+  .everything-mackie {
+    display: none
+  }
+
+}
+
+/* Desktop Media Query */
+@media only screen and (min-width:960px) {
+  .everything-madison {
+    display: none;
+  }
+
+  body {
+    background-color: green;
+  }
+
+  .everything-mackie {
+
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: white;
+
+    padding-bottom: 30px;
+  }
+
+  #mobile-figure-header, #figure-two, #figure-three, #figure-four, #figure-five, #figure-six, #figure-seven, #figure-eight {
+    display: none;
+  }
+
+
+  #desktop-figure-header {
+    display: block;
+
+    position: relative;
+    z-index: 98;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+
+  #cloud-column {
+    display: block;
+  }
+
+  #cloud-column-image {
+    max-width: 420%;
+    height: auto;
+
+    margin-top: -60px;
+
+    position: relative;
+    z-index: 97;
+  }
+
+  #desktop-header-caption {
+    margin-right: 2%;
+  }
+
+  .mobile-article-title {
+    display: none;
+  }
+
+  .desktop-article-title {
+    display: block;
+
+    margin-top: -292px;
+    margin-bottom: 172px;
+
+    margin-left: 10%;
+
+    position: relative;
+    z-index: 98;
+
+  }
+
+  h1 {
+    font-size: 46px;
+
+    /* Ivory */
+    color: #FFEDCB;
+
+    text-align: center;
+  }
+
+  #byline {
+
+    font-size: 18px;
+
+    /* Ivory */
+    color: #FFEDCB;
+
+    position: relative;
+    bottom: 125px;
+
+    text-align: left;
+
+    position: relative;
+    z-index: 98;
+  }
+
+  .flex-image-container {
+    display: flex;
+
+    flex-direction: column;
+
+    z-index: 99;
+
+    position: relative;
+  }
+
+  #engine-video {
+
+    max-width: 51.21%;
+    height: auto;
+
+    position: absolute;
+    margin-top: 2%;
+  }
+
+  #crashed-bomber-pic {
+    display: block;
+    position: relative;
+  }
+
+  #crashed-bomber {
+    max-width: 51.21%;
+    height: auto;
+
+    position: absolute;
+    margin-top: 45%;
+  }
+
+  #crashed-caption {
+    display: block;
+
+    text-align: left;
+
+    position: absolute;
+
+    margin-left: 2%;
+
+    margin-top: 45%;
+  }
+
+  #quote-one {
+
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+
+    max-width: 51.21%;
+    height: auto;
+
+    position: absolute;
+    margin-top: 100%;
+  }
+
+  #instruments-pic {
+    display: block;
+    position: relative;
+  }
+
+  #panel-pic {
+    max-width: 51.21%;
+    height: auto;
+
+    position: absolute;
+    margin-top: 120%;
+  }
+
+  #panel-caption {
+    display: block;
+
+    text-align: left;
+
+    position: absolute;
+
+    margin-left: 2%;
+
+    margin-top: 120%;
+  }
+
+  #quote-two {
+
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+
+    max-width: 51.21%;
+    height: auto;
+
+    position: absolute;
+    margin-top: 170%;
+  }
+
+  #sketch-pic {
+    display: block;
+    position: relative;
+  }
+
+  #sketch {
+    max-width: 51.21%;
+    height: auto;
+
+    position: absolute;
+    margin-top: 185%;
+  }
+
+  #sketch-caption {
+    display: block;
+
+    text-align: left;
+
+    position: absolute;
+
+    margin-left: 2%;
+
+    margin-top: 185%;
+  }
+
+  #knobs-pic {
+    display: block;
+    position: relative;
+  }
+
+  #knobs {
+    max-width: 51.21%;
+    height: auto;
+
+    position: absolute;
+    margin-top: 205%;
+  }
+
+  #knobs-caption {
+    display: block;
+
+    text-align: left;
+
+    position: absolute;
+
+    margin-left: 2%;
+
+    margin-top: 205%;
+  }
+
+  #quote-three {
+
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+
+    max-width: 51.21%;
+    height: auto;
+
+    position: absolute;
+    margin-top: 270%;
+  }
+
+  #quote-four {
+
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+
+    max-width: 51.21%;
+    height: auto;
+
+    position: absolute;
+    margin-top: 300%;
+  }
+
+  #medallion-pic {
+    display: block;
+    position: relative;
+  }
+
+  #medallion {
+    max-width: 51.21%;
+    height: auto;
+
+    position: absolute;
+    margin-top: 320%;
+  }
+
+  #medallion-caption {
+    display: block;
+
+    text-align: left;
+
+    position: absolute;
+
+    margin-left: 2%;
+
+    margin-top: 320%;
+  }
+
+  #patent-pic {
+    display: block;
+    position: relative;
+  }
+
+  #patent {
+    max-width: 51.21%;
+    height: auto;
+
+    position: absolute;
+    margin-top: 405%;
+  }
+
+  #patent-caption {
+    display: block;
+
+    text-align: left;
+
+    position: absolute;
+
+    margin-left: 2%;
+
+    margin-top: 405%;
+  }
+
+  h2 {
+    margin-left: 48%
+  }
+
+  p {
+    margin-left: 48%;
+  }
+
+  .rectangle {
+    /* Gradient-matching reddish-orange */
+    background-color: #e05745;
+
+    width: 51.21%;
+    height: 4330px;
+
+    margin-top: -4340px;
+  }
+
+
+}
+
+
+/* Font Reference List
+
+  Interstate Regular, H1 for all formats
+    Mobile: ~32px, broken into three lines
+    Tablet: ~32px, broken into two lines
+    Desktop: ~80px, broken into two lines
+  font-family: interstate, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  Fenway Park JF, H2 for all formats
+    Mobile: ~30px
+    Tablet: ~30px
+    Desktop: ~60px
+  font-family: fenway-park-jf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  LTC Caslon Pro Regular, body for all formats
+    Mobile: ~18px
+    Tablet: ~18px
+    Desktop: ~24px
+  font-family: ltc-caslon-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+
+  Omnes Cyrillic Narrow ExtraLight, captions/buttons before click for all formats
+    Mobile: ~14px
+    Tablet: ~12px
+    Desktop: ~22px
+  font-family: omnes-cyrillic-narrow, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+  Omnes Cyrillic Narrow Regular, captions/buttons on/after click for all formats
+    Mobile: none as yet
+    Tablet: ~12px
+    Desktop: ~22px
+  font-family: omnes-cyrillic-narrow, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+
+
+  Adobe Caslon Pro Bold, for tablet and desktop blockquotes
+    Mobile: none as yet
+    Tablet: ~15px
+    Desktop: ~40px
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 700;
+  font-style: normal;
+
+ */
